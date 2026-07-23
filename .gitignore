@@ -27,3 +27,19 @@ _ide_helper.php
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+# ============================================================
+# AI Tool Rules & Configuration (not needed in production)
+# ============================================================
+/.agents/
+/.claude/
+/.factory/
+/.grok/
+/.junie/
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+gemini.project.md
+opencode.json
+.mcp.json
+boost.json
