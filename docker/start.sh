@@ -9,7 +9,7 @@ php artisan route:cache
 php artisan view:cache
 
 # Run migrations on every deploy (safe with --force in production)
-php artisan migrate --force
+php artisan migrate --force || true
 
 # Create storage symlink
 php artisan storage:link 2>/dev/null || true

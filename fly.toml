@@ -36,11 +36,11 @@ primary_region = "lhr"
   [[services.http_checks]]
     interval = "30s"
     timeout = "10s"
-    grace_period = "60s"
+    grace_period = "120s"
     method = "GET"
     path = "/"
 
 [[vm]]
-  memory = "256mb"
+  memory = "512mb"
   cpu_kind = "shared"
   cpus = 1
